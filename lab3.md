@@ -18,13 +18,13 @@ The command I chose is the find command.
 - Lists all files, including hidden ones, in a directory
 - Found using ChatGPT
 
-3. find . -size
+3. grep -r "string" /path/to/directory
 
-![Image](Screen Shot 2023-05-07 at 2.34.16 PM.png)
-![Image](Screen Shot 2023-05-07 at 2.34.16 PM.png)
+![Image](Screen Shot 2023-05-10 at 10.12.37 PM.png)
+![Image](Screen Shot 2023-05-10 at 10.13.24 PM.png)
 
-- Used to find files of a certain sizes in the current directory and its subdirectories
-- Found using https://javarevisited.blogspot.com/2018/08/10-example-of-find-command-in-unix-linux.html#axzz814DzeJv2
+- Used to search for all the files in a directory that contain the specified string
+- Found using ChatGPT
 
 
 4. !find
