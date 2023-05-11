@@ -2,7 +2,7 @@
 
 The command I chose is the find command.
 
-1. ls -R /path/to/directory
+1. ```ls -R /path/to/directory```
 
 ![Image](Screen Shot 2023-05-07 at 3.27.05 PM.png)
 ![Image](Screen Shot 2023-05-10 at 6.25.18 PM.png)
@@ -10,7 +10,7 @@ The command I chose is the find command.
 - Recursively lists all the files and directories in a directory
 - Found using ChatGPT
 
-2. ls -a /path/to/directory
+2. ```ls -a /path/to/directory```
 
 ![Image](Screen Shot 2023-05-07 at 3.27.58 PM.png)
 ![Image](Screen Shot 2023-05-10 at 6.26.25 PM.png)
@@ -18,7 +18,7 @@ The command I chose is the find command.
 - Lists all files, including hidden ones, in a directory
 - Found using ChatGPT
 
-3. grep -r "string" /path/to/directory
+3. ```grep -r "string" /path/to/directory```
 
 ![Image](Screen Shot 2023-05-10 at 10.12.37 PM.png)
 ![Image](Screen Shot 2023-05-10 at 10.13.24 PM.png)
@@ -27,7 +27,7 @@ The command I chose is the find command.
 - Found using ChatGPT
 
 
-4. !find
+4. ```!find```
 
 ![Image](Screen Shot 2023-05-10 at 6.27.09 PM.png)
 ![Image](Screen Shot 2023-05-10 at 6.27.33 PM.png)
