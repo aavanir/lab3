@@ -14,7 +14,7 @@ This screenshot shows all the files in the biomed directory with a size greater 
 
 
 - Searches for files larger or smaller than a specific size
-- Found using ChatGPT
+- Found using [ChatGPT](chat.openai.com)
   - Input to ChatGPT: "different ways to use find command"
   - Output from ChatGPT:
 
@@ -33,7 +33,7 @@ This screenshot shows all the files in the plos directory that are empty. In thi
 
 
 - Searches for files that are empty
-- Found using ChatGPT
+- Found using [ChatGPT](chat.openai.com)
   - Input to ChatGPT: "different ways to use find command"
   - Output from ChatGPT:
 
@@ -53,7 +53,7 @@ This screenshot shows all the files that are listed in the plos directory that c
 
 
 - Used to search for all the files in a directory that contain the specified string
-- Found using ChatGPT
+- Found using [ChatGPT](chat.openai.com)
   - Input to ChatGPT: "find command to find files with specific keyword"
   - Output from ChatGPT:
 
