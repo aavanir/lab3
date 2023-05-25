@@ -2,61 +2,62 @@
 
 The command I chose is the find command.
 
-## 1. ```ls -R /path/to/directory```
+## 1. ```find /path/to/directory -type f -size +1M``` or ```find /path/to/directory -type f -size -1M```
 
-This is useful because it listst files recursively which can help with efficiently searching for files and file analysis.
+This is useful because it will help find files larger or smaller than a specific size within the specified directory and its subdirectories.
 
-![Image](Screen Shot 2023-05-07 at 3.27.05 PM.png)
-This screenshot shows all the files in the biomed directory. The files are listed recursively.
+![Image](Screen Shot 2023-05-24 at 8.10.17 PM.png)
+This screenshot shows all the files in the biomed directory with a size less then 1MB.
 
-![Image](Screen Shot 2023-05-10 at 6.25.18 PM.png)
-This screenshot shows all the files in the plos directory. The files are listed recursively.
+![Image](Screen Shot 2023-05-24 at 8.10.37 PM.png)
+This screenshot shows all the files in the biomed directory with a size greater then 1MB and 10MB. In this case, there are none.
 
 
-- Recursively lists all the files and directories in a directory
+- Searches for files larger or smaller than a specific size
 - Found using ChatGPT
-  - Input to ChatGPT: "command in the command line options similar to find command"
+  - Input to ChatGPT: "different ways to use find command"
   - Output from ChatGPT:
 
-![Image](Screen Shot 2023-05-24 at 2.32.58 PM.png)
+![Image](Screen Shot 2023-05-24 at 8.14.05 PM.png)
+![Image](Screen Shot 2023-05-24 at 8.14.23 PM.png)
 
-## 2. ```ls -a /path/to/directory```
+## 2. ```find /path/to/directory -mtime n```
 
-This is useful because it lists hidden files in addition to regular files which the find command does not fo.
+This is useful because it helps you find files that are empty, so that if you want to remove/delete files with no content in them, you would be able to.
 
-![Image](Screen Shot 2023-05-07 at 3.27.58 PM.png)
-This screenshot shows all the files in the biomed directory including hidden files. However, since there were no hidden files in this case, it simply lists all the files.
+![Image](Screen Shot 2023-05-24 at 8.23.50 PM.png)
+This screenshot shows all the files in the biomed directory that are empty (do not have any text in them).
 
-![Image](Screen Shot 2023-05-10 at 6.26.25 PM.png)
-This screenshot shows all the files in the plos directory including hidden files. However, since there were no hidden files in this case, it simply lists all the files..
+![Image](Screen Shot 2023-05-24 at 8.26.42 PM.png)
+This screenshot shows all the files in the plos directory that are empty. In this case there are none.
 
 
-- Lists all files, including hidden ones, in a directory
+- Searches for files that are empty
 - Found using ChatGPT
-  - Input to ChatGPT: "give me  10 ls commands to find files in java"
+  - Input to ChatGPT: "different ways to use find command"
   - Output from ChatGPT:
 
-![Image](Screen Shot 2023-05-24 at 2.39.01 PM.png)
-![Image](Screen Shot 2023-05-24 at 2.39.06 PM.png)
+![Image](Screen Shot 2023-05-24 at 8.14.05 PM.png)
+![Image](Screen Shot 2023-05-24 at 8.14.23 PM.png)
 
 
-## 3. ```grep -r "string" /path/to/directory```
+## 3. ```find /path/to/directory -type f -exec grep -l "keyword" {} +```
 
 This is useful because if you are doing research on a specific topic or looking for a specific keyword, this command will help you find files tat contain that keyword to narrow your search.
 
-![Image](Screen Shot 2023-05-10 at 10.12.37 PM.png)
+![Image](Screen Shot 2023-05-24 at 8.29.12 PM.png)
 This screenshot shows all the files that are listed in the biomed directory that contain the keyword "obscure".
 
-![Image](Screen Shot 2023-05-10 at 10.13.24 PM.png)
+![Image](Screen Shot 2023-05-24 at 8.29.57 PM.png)
 This screenshot shows all the files that are listed in the plos directory that contain the keyword "rhythm".
 
 
 - Used to search for all the files in a directory that contain the specified string
 - Found using ChatGPT
-  - Input to ChatGPT: "can you use grep command to find files"
+  - Input to ChatGPT: "find command to find files with specific keyword"
   - Output from ChatGPT:
 
-![Image](Screen Shot 2023-05-24 at 2.36.28 PM.png)
+![Image](Screen Shot 2023-05-24 at 8.04.27 PM.png)
 
 
 ## 4. ```!find```
@@ -74,6 +75,9 @@ This screenshot shows the use of the ```find``` and ```!find``` command to find 
 - Found using [This website](https://javarevisited.blogspot.com/2018/08/10-example-of-find-command-in-unix-linux.html#axzz814DzeJv2)
 - ChatGPT was not used to find this command.
 
-13 and 10?
+
+## 5. ```find /path/to/directory -type f -size +1M```
+
+
 
 
