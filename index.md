@@ -43,7 +43,7 @@ This screenshot shows all the files in the plos directory that are empty. In thi
 
 ## 3. ```find /path/to/directory -type f -exec grep -l "keyword" {} +```
 
-This is useful because if you are doing research on a specific topic or looking for a specific keyword, this command will help you find files tat contain that keyword to narrow your search.
+This is useful because if you are doing research on a specific topic or looking for a specific keyword, this command will help you find files that contain that keyword to narrow your search.
 
 ![Image](Screen Shot 2023-05-24 at 8.29.12 PM.png)
 This screenshot shows all the files that are listed in the biomed directory that contain the keyword "obscure".
