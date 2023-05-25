@@ -76,8 +76,6 @@ This screenshot shows the use of the ```find``` and ```!find``` command to find 
 - ChatGPT was not used to find this command.
 
 
-## 5. ```find /path/to/directory -type f -size +1M```
-
 
 
 
